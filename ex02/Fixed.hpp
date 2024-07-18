@@ -38,7 +38,7 @@ class Fixed
 		Fixed	operator+(Fixed const &fixed) const;
 		Fixed	operator-(Fixed const &fixed) const;
 		Fixed	operator*(Fixed const &fixed) const;
-		Fixed	operator/(Fixed const &fixed) const;;
+		Fixed	operator/(Fixed const &fixed) const;
 		Fixed	&operator++(void);
 		Fixed	operator++(int);
 		Fixed	&operator--(void);
